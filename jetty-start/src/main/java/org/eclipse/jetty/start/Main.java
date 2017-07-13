@@ -74,6 +74,7 @@ public class Main
         {
             Main main = new Main();
             StartArgs startArgs = main.processCommandLine(args);
+
             test=startArgs.isTestingModeEnabled();
             main.start(startArgs);
         }
